@@ -1,6 +1,6 @@
-# Vue Handbook
+<h1 align="center">Vue Handbook</h1>
 
-![](https://vuejs.org/images/logo.png)
+<p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="100" src="https://vuejs.org/images/logo.png" alt="Vue logo"></a></p>
 
 ### Introduction
 
@@ -8,17 +8,17 @@ Vue (pronounced /vjuː/, like view) is a progressive framework for building user
 
 ## Table of Contents
 - [Introduction, Installation & Outputting Data](#introduction-installation--outputting-data)
-- Binding Data & Simple To-Do Example
-- Conditional Rendering with v-if and v-else
-- Computed Properties
-- Methods vs. Computed Properties
-- Components 101
-- Custom Events Passing Data from Child to Parent Component
-- Making HTTP Requests with Axios with API Example
-- Introduction to Vue CLI and Vue UI Tool
-- Class and Style Bindings
-- Simple Routing From Scratch
-- Vue Router
+- [Binding Data & Simple To-Do Example](#binding-data--simple-to-do-example)
+- [Conditional Rendering with v-if and v-else](#conditional-rendering-with-v-if-and-v-else)
+- [Computed Properties](#computed-properties)
+- [Methods vs. Computed Properties](#methods-vs-computed-properties)
+- [Components 101](#components-101)
+- [Custom Events Passing Data from Child to Parent Component](#custom-events-passing-data-from-child-to-parent-component)
+- [Making HTTP Requests with Axios with API Example](#making-http-requests-with-axios-with-api-example)
+- [Introduction to Vue CLI and Vue UI Tool](#introduction-to-vue-cli-and-vue-ui-tool)
+- [Class and Style Bindings](#class-and-style-bindings)
+- [Simple Routing From Scratch](#simple-routing-from-scratch)
+- [Vue Router](#vue-router)
 
 ## Introduction, Installation & Outputting Data
 Getting started by through [Vue.js](https://vuejs.org/v2/guide/) and get the script link similar to below
