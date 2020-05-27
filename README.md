@@ -42,26 +42,49 @@ Choose development version for beginner
 </html>
 ```
 Copy the script and paste it into body html like so
+[Back to Table of Content](#table-of-contents)
 
 ## Binding Data & Simple To-Do Example
 
+[Back to Table of Content](#table-of-contents)
+
 ## Conditional Rendering with v-if and v-else
+
+[Back to Table of Content](#table-of-contents)
 
 ## Computed Properties
 
+[Back to Table of Content](#table-of-contents)
+
 ## Methods vs. Computed Properties
+
+[Back to Table of Content](#table-of-contents)
 
 ## Components 101
 
+[Back to Table of Content](#table-of-contents)
+
 ## Custom Events Passing Data from Child to Parent Component
+
+[Back to Table of Content](#table-of-contents)
 
 ## Making HTTP Requests with Axios with API Example
 
+[Back to Table of Content](#table-of-contents)
+
 ## Introduction to Vue CLI and Vue UI Tool
+
+[Back to Table of Content](#table-of-contents)
 
 ## Class and Style Bindings
 
+[Back to Table of Content](#table-of-contents)
+
 ## Simple Routing From Scratch
 
+[Back to Table of Content](#table-of-contents)
+
 ## Vue Router
+
+[Back to Table of Content](#table-of-contents)
  
