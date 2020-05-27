@@ -33,11 +33,11 @@ Choose development version for beginner
 <html lang="en">
   <head>
     <title>Vue Js Newbies</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   </head>
   <body>
     
-    <!-- Something important maybe -->
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
   </body>
 </html>
 ```
