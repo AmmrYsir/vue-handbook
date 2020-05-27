@@ -8,7 +8,7 @@ Vue (pronounced /vjuː/, like view) is a progressive framework for building user
 
 **Table of Contents**
                 
-- [Introduction, Installation & Outputting Data](#introduction,-installation-&-Outputting-Data)
+- [Introduction, Installation & Outputting Data](#introduction-installation--outputting-data)
 + Binding Data & Simple To-Do Example
 + Conditional Rendering with v-if and v-else
 + Computed Properties
