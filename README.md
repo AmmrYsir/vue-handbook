@@ -17,7 +17,6 @@ Vue (pronounced /vjuː/, like view) is a progressive framework for building user
 - [Making HTTP Requests with Axios with API Example](#making-http-requests-with-axios-with-api-example)
 - [Introduction to Vue CLI and Vue UI Tool](#introduction-to-vue-cli-and-vue-ui-tool)
 - [Class and Style Bindings](#class-and-style-bindings)
-- [Simple Routing From Scratch](#simple-routing-from-scratch)
 - [Vue Router](#vue-router)
 
 ## Introduction, Installation & Outputting Data
@@ -95,12 +94,6 @@ Copy the script and paste it into body html like so
 [Back to Table of Content](#table-of-contents)
 
 ## Class and Style Bindings
-
-<br />
-
-[Back to Table of Content](#table-of-contents)
-
-## Simple Routing From Scratch
 
 <br />
 
