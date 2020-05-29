@@ -26,7 +26,8 @@ Getting started by through [Vue.js](https://vuejs.org/v2/guide/) and get the scr
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 ```
 Choose development version for beginner
-<hr />
+<hr>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
