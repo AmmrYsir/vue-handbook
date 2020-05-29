@@ -44,6 +44,20 @@ Copy the script and paste it into body html like so
 <br />
 
 ```html
+<script>
+  new Vue({
+    el: '',
+    data: {
+    
+    },
+  
+  })
+</script>
+```
+Now, we're going to create Vue!
+
+It will look like this!
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -56,12 +70,16 @@ Copy the script and paste it into body html like so
     <script>
       new Vue({
         el: '#app',
+        data: {
+
+        },
       })
     </script>
   </body>
 </html>
 ```
-This is how it look like
+- el stand for Element which we will bind it into div which id is app.
+- data which refer to any variable that we can define later.
 
 [Back to Table of Content](#table-of-contents)
 
