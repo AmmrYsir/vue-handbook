@@ -28,7 +28,7 @@ Getting started by through [Vue.js](https://vuejs.org/v2/guide/) and get the scr
 Choose development version for beginner
 <hr>
 
-***Copy the script and paste it into body html like so***
+***1. Copy that script and paste it into head like so***
 
 ```html
 <!DOCTYPE html>
@@ -45,7 +45,7 @@ Choose development version for beginner
 ```
 <br />
 
-Now, we're going to create Vue!
+***2. Now, we're going to create Vue! inside body tag***
 ```html
 <script>
   new Vue({
