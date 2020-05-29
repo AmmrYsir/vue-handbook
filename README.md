@@ -43,7 +43,6 @@ Choose development version for beginner
 
 Copy the script and paste it into body html like so
 <br />
-<hr />
 
 Now, we're going to create Vue!
 ```html
@@ -57,9 +56,8 @@ Now, we're going to create Vue!
   })
 </script>
 ```
-</hr >
 
-It will look like this!
+***It will look like this!***
 ```html
 <!DOCTYPE html>
 <html lang="en">
