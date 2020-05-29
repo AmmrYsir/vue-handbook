@@ -28,6 +28,8 @@ Getting started by through [Vue.js](https://vuejs.org/v2/guide/) and get the scr
 Choose development version for beginner
 <hr>
 
+***Copy the script and paste it into body html like so***
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -41,8 +43,6 @@ Choose development version for beginner
   </body>
 </html>
 ```
-
-Copy the script and paste it into body html like so
 <br />
 
 Now, we're going to create Vue!
