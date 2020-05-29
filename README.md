@@ -43,6 +43,26 @@ Choose development version for beginner
 Copy the script and paste it into body html like so
 <br />
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vue Js Newbies</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    
+    <script>
+      new Vue({
+        el: '#app',
+      })
+    </script>
+  </body>
+</html>
+```
+This is how it look like
+
 [Back to Table of Content](#table-of-contents)
 
 ## Binding Data & Simple To-Do Example
