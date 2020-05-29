@@ -43,7 +43,7 @@ Choose development version for beginner
   </body>
 </html>
 ```
-<br />
+<br >
 
 ***2. Now, we're going to create Vue! inside body tag***
 ```html
@@ -57,8 +57,9 @@ Choose development version for beginner
   })
 </script>
 ```
+<br >
 
-***It will look like this!***
+***3. It will look like this!***
 ```html
 <!DOCTYPE html>
 <html lang="en">
