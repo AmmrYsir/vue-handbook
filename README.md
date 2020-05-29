@@ -26,7 +26,7 @@ Getting started by through [Vue.js](https://vuejs.org/v2/guide/) and get the scr
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 ```
 Choose development version for beginner
-
+<hr />
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -40,9 +40,12 @@ Choose development version for beginner
   </body>
 </html>
 ```
+
 Copy the script and paste it into body html like so
 <br />
+<hr />
 
+Now, we're going to create Vue!
 ```html
 <script>
   new Vue({
@@ -54,7 +57,7 @@ Copy the script and paste it into body html like so
   })
 </script>
 ```
-Now, we're going to create Vue!
+</hr >
 
 It will look like this!
 ```html
