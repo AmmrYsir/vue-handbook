@@ -107,6 +107,8 @@ Choose development version for beginner
   </body>
 </html>
 ```
+***Output: ***
+![Output 1](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output1.PNG)
 <br>
 
 
