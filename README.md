@@ -264,7 +264,10 @@ Choose development version for beginner
   </div>
 ```
 ***Output:***
+<br>
 ![Output 5](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output5.PNG)
+***You also can do vice-versa by changing v-if="!list.checked"***
+
 <br>
 
 [Back to Table of Content](#table-of-contents)
