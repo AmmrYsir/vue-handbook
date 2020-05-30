@@ -175,7 +175,7 @@ Choose development version for beginner
 <br>
 ![Output 3](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output3.png)
 
-***3. Simple Todo with v-for***
+***3. Simple To-Do Example with v-for***
 ```html
 <!DOCTYPE html>
 <html lang="en">
