@@ -143,6 +143,34 @@ Choose development version for beginner
 ```
 ***Output (Use v-text to bind it into any div)***
 ![Output 2](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output2.PNG)
+
+***2. Binding Data as tooltip with v-bind:title***
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vue Js Newbies</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1 v-text="title" v-bind:title="tooltip"></h1>
+    </div>
+    
+    <script>
+      new Vue({
+        el: '#app',
+        data: {
+            title: 'This is Vue.js',
+            tooltip: 'Vue.js is an open-source model–view–viewmodel JavaScript framework',
+        },
+      })
+    </script>
+  </body>
+</html>
+```
+***Output***
+![Output 3](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output3.PNG)
 <br />
 
 [Back to Table of Content](#table-of-contents)
