@@ -108,6 +108,7 @@ Choose development version for beginner
 </html>
 ```
 ***Output:***
+<br>
 ![Output 1](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output1.PNG)
 <br>
 
@@ -142,6 +143,7 @@ Choose development version for beginner
 </html>
 ```
 ***Output (Use v-text to bind it into any div)***
+<br>
 ![Output 2](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output2.PNG)
 
 ***2. Binding Data as tooltip with v-bind:title***
@@ -170,6 +172,7 @@ Choose development version for beginner
 </html>
 ```
 ***Output***
+<br>
 ![Output 3](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output3.png)
 <br />
 
