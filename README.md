@@ -266,6 +266,7 @@ Choose development version for beginner
 ***Output:***
 <br>
 ![Output 5](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output5.PNG)
+<br>
 ***You also can do vice-versa by changing v-if="!list.checked"***
 
 <br>
