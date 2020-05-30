@@ -170,7 +170,7 @@ Choose development version for beginner
 </html>
 ```
 ***Output***
-![Output 3](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output3.PNG)
+![Output 3](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output3.png)
 <br />
 
 [Back to Table of Content](#table-of-contents)
