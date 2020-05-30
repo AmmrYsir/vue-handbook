@@ -307,6 +307,54 @@ Choose development version for beginner
 <br>
 ![Output 7](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output7.PNG)
 
+***Simple Todo Example 2***
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vue Js Newbies</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+        <table>
+            <thead>
+                <th>Content</th>
+                <th>Checked</th>
+                <th>Action</th>
+            </thead>
+            <tbody>
+                <tr v-for="list in Todo" v-if="list.checked">
+                    <td v-text="list.content"></td>
+                    <td><strong v-text="list.checked"></strong></td>
+                    <td><button type="submit" @click="list.checked = !list.checked">Uncheck</button></td>
+                </tr>
+                <tr v-else>
+                    <td v-text="list.content"></td>
+                    <td><strong v-text="list.checked"></strong></td>
+                    <td><button type="submit" @click="list.checked = !list.checked">Check</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <script>
+      new Vue({
+        el: '#app',
+        data: {
+            Todo: [
+                {content: 'Do Homework', checked: false },
+                {content: 'Buy weekly groceries', checked: false },
+                {content: 'Play with everyone', checked: true },
+                {content: 'Finish part-time project', checked: false },
+            ]
+        },
+      })
+    </script>
+  </body>
+</html>
+```
+
 <br>
 
 [Back to Table of Content](#table-of-contents)
