@@ -287,6 +287,26 @@ Choose development version for beginner
 <br>
 ![Output 6](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output6.PNG)
 
+***4. Dynamic button to check and uncheck the list***
+```html
+  <div id="app">
+      <ul>
+          <li v-for="list in Todo" v-if="list.checked">
+              {{ list.content }}
+              <strong v-text="list.checked"></strong>
+              <button type="submit" @click="list.checked = !list.checked">Uncheck</button>
+          </li>
+          <li v-else>
+              This list is not checked!
+              <button type="submit" @click="list.checked = !list.checked">Uncheck</button>
+          </li>
+      </ul>
+  </div>
+```
+***Output:***
+<br>
+![Output 7](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output7.PNG)
+
 <br>
 
 [Back to Table of Content](#table-of-contents)
