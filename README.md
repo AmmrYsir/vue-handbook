@@ -108,17 +108,41 @@ Choose development version for beginner
 </html>
 ```
 ***Output:***
-
 ![Output 1](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output1.PNG)
 <br>
-
 
 [Back to Table of Content](#table-of-contents)
 
 ## Binding Data & Simple To-Do Example
 
-
-
+***1. Binding Data with v-text and v-title***
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vue Js Newbies</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1 v-text="title"></h1>
+      <p v-text="content"></p>
+    </div>
+    
+    <script>
+      new Vue({
+        el: '#app',
+        data: {
+            title: 'This is Vue.js',
+            content: 'Vue.js is an open-source model–view–viewmodel JavaScript framework',
+        },
+      })
+    </script>
+  </body>
+</html>
+```
+***Output (Use v-text to bind it into any div)***
+![Output 2](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output2.PNG)
 <br />
 
 [Back to Table of Content](#table-of-contents)
