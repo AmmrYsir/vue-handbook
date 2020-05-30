@@ -217,7 +217,55 @@ Choose development version for beginner
 
 ## Conditional Rendering with v-if and v-else
 
-<br />
+***1. Create Simple Todo List***
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vue Js Newbies</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+        <ul>
+            <li v-for="list in Todo">
+                {{ list.content }}
+                <strong v-text="list.checked"></strong>
+            </li>
+        </ul>
+    </div>
+    
+    <script>
+      new Vue({
+        el: '#app',
+        data: {
+            Todo: [
+                {content: 'Do Homework', checked: true },
+                {content: 'Buy weekly groceries', checked: false },
+                {content: 'Play with everyone', checked: true },
+                {content: 'Finish part-time project', checked: false },
+            ]
+        },
+      })
+    </script>
+  </body>
+</html>
+```
+
+***2. Add v-if to li tag***
+```html
+  <div id="app">
+      <ul>
+          <li v-for="list in Todo" v-if="list.checked">
+              {{ list.content }}
+              <strong v-text="list.checked"></strong>
+          </li>
+      </ul>
+  </div>
+```
+***You will realise that only 2 list appear***
+
+<br>
 
 [Back to Table of Content](#table-of-contents)
 
