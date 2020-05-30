@@ -174,7 +174,44 @@ Choose development version for beginner
 ***Output***
 <br>
 ![Output 3](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output3.png)
-<br />
+
+***3. Simple Todo with v-for***
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vue Js Newbies</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <ul>
+          <li v-for="list in todolist"> {{ list }} </li>
+      </ul>
+    </div>
+    
+    <script>
+      new Vue({
+        el: '#app',
+        data: {
+            todolist: [
+                'A',
+                'B',
+                'C',
+                'D',
+                'E',
+                'F',
+            ]
+        },
+      })
+    </script>
+  </body>
+</html>
+```
+***Output***
+<br>
+![Output 4](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output4.PNG)
+<br>
 
 [Back to Table of Content](#table-of-contents)
 
