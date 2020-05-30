@@ -269,6 +269,24 @@ Choose development version for beginner
 <br>
 ***You also can do vice-versa by changing v-if="!list.checked"***
 
+***3. Use v-else statement***
+```html
+  <div id="app">
+      <ul>
+          <li v-for="list in Todo" v-if="list.checked">
+              {{ list.content }}
+              <strong v-text="list.checked"></strong>
+          </li>
+          <li v-else>
+              This list is not checked!
+          </li>
+      </ul>
+  </div>
+```
+***Output:***
+<br>
+![Output 6](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output6.PNG)
+
 <br>
 
 [Back to Table of Content](#table-of-contents)
