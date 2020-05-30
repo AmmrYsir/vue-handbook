@@ -263,8 +263,8 @@ Choose development version for beginner
       </ul>
   </div>
 ```
-***You will realise that only 2 list appear***
-
+***Output:***
+![Output 5](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output5.PNG)
 <br>
 
 [Back to Table of Content](#table-of-contents)
