@@ -83,10 +83,38 @@ Choose development version for beginner
 ```
 - el stand for Element which we will bind it into div which id is app.
 - data which refer to any variable that we can define later.
+<br>
+
+***4. Outputting Data***
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vue Js Newbies</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app"> {{ x }} </div>
+    
+    <script>
+      new Vue({
+        el: '#app',
+        data: {
+            x: 'Hello World',
+        },
+      })
+    </script>
+  </body>
+</html>
+```.
+<br>
+
 
 [Back to Table of Content](#table-of-contents)
 
 ## Binding Data & Simple To-Do Example
+
+
 
 <br />
 
