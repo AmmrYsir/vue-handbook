@@ -106,7 +106,7 @@ Choose development version for beginner
     </script>
   </body>
 </html>
-```.
+```
 <br>
 
 
