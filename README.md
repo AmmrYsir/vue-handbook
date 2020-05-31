@@ -362,9 +362,47 @@ Choose development version for beginner
 ## Computed Properties
 
 ```html
-<div>
-  </div>
+<div id="app">
+	<h3> {{ originalmessage }} </h3>
+	<h3> {{ reversemessage }} </h3>
 </div>
+    
+<script>
+  new Vue({
+	el: '#app',
+	data: {
+		originalmessage: 'Hello From Vue.js',
+	},
+	computed: {
+		reversemessage: function() {
+			return this.originalmessage.split('').reverse().join('')
+		}
+	}
+  })
+</script>
+```
+
+```html
+<div id="app">
+	<h3>Salary: {{ salary }} </h3>
+	<h3>KWSP rate (RM): {{ kwsp }}</h3>
+	<h3>Money in hand: {{ salary - kwsp }} </h3>
+</div>
+    
+<script>
+	new Vue({
+		el: '#app',
+		data: {
+			salary: 1500,
+		},
+		computed: {
+			kwsp: function() {
+				return this.salary * 0.11
+			}
+
+		}
+	})
+</script>
 ```
 
 
