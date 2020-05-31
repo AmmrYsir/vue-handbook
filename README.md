@@ -361,6 +361,27 @@ Choose development version for beginner
 
 ## Computed Properties
 
+```html
+<div id="app">
+    <h3> Original message: {{ message }}</h3>
+    <h3> Reverse message: {{ reverse }}</h3>
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello from Vue.js'
+        },
+        computed: {
+            reverse: function(){
+                return this.message.split('').reverse().join('')
+            }
+        }
+    })
+</script>
+```
+
 [Back to Table of Content](#table-of-contents)
 
 ## Methods vs. Computed Properties
