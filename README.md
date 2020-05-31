@@ -361,49 +361,72 @@ Choose development version for beginner
 
 ## Computed Properties
 
-<br />
+***In-template expressions are very convenient, but they are meant for simple operations. Putting too much logic in your templates can make them bloated and hard to maintain. For example:***
+```html
+<div id="app">
+	<h3> {{ originalmessage }} </h3>
+	<h3> {{ reversemessage }} </h3>
+</div>
+    
+<script>
+  new Vue({
+	el: '#app',
+	data: {
+		originalmessage: 'Hello From Vue.js',
+	},
+	computed: {
+		reversemessage: function() {
+			return this.originalmessage.split('').reverse().join('')
+		}
+	}
+  })
+</script>
+```
+<br>
+
+***Another example with calculation logic***
 
 [Back to Table of Content](#table-of-contents)
 
 ## Methods vs. Computed Properties
 
-<br />
+<br>
 
 [Back to Table of Content](#table-of-contents)
 
 ## Components 101
 
-<br />
+<br>
 
 [Back to Table of Content](#table-of-contents)
 
 ## Custom Events Passing Data from Child to Parent Component
 
-<br />
+<br>
 
 [Back to Table of Content](#table-of-contents)
 
 ## Making HTTP Requests with Axios with API Example
 
-<br />
+<br>
 
 [Back to Table of Content](#table-of-contents)
 
 ## Introduction to Vue CLI and Vue UI Tool
 
-<br />
+<br>
 
 [Back to Table of Content](#table-of-contents)
 
 ## Class and Style Bindings
 
-<br />
+<br>
 
 [Back to Table of Content](#table-of-contents)
 
 ## Vue Router
 
-<br />
+<br>
 
 [Back to Table of Content](#table-of-contents)
  
