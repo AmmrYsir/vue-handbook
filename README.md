@@ -363,10 +363,7 @@ Choose development version for beginner
 
 ***In-template expressions are very convenient, but they are meant for simple operations. Putting too much logic in your templates can make them bloated and hard to maintain. For example:***
 ```html
-<div id="app">
-	<h3> {{ originalmessage }} </h3>
-	<h3> {{ reversemessage }} </h3>
-</div>
+
 ```
 
 ***Another example with calculation logic***
