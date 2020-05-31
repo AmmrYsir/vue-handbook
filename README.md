@@ -371,8 +371,6 @@ Choose development version for beginner
   <body>
     <div id="app>
       <h3>Salary: {{ salary }} </h3>
-	    <h3>KWSP rate (RM): {{ kwsp }}</h3>
-	    <h3>Money in hand: {{ salary - kwsp }} </h3>
     </div>
     <script>
       new Vue({
