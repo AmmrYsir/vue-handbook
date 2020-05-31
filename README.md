@@ -361,37 +361,6 @@ Choose development version for beginner
 
 ## Computed Properties
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Vue Js Newbies</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  </head>
-  <body>
-    <div id="app>
-      <h3>Salary: {{ salary }} </h3>
-      
-    </div>
-    <script>
-      new Vue({
-        el: '#app',
-        data: {
-          salary: 1500,
-        },
-        computed: {
-          kwsp: function() {
-            return this.salary * 0.11
-          }
-        },
-      })
-    </script>
-  </body>
-</html>
-```
-
-<br>
-
 [Back to Table of Content](#table-of-contents)
 
 ## Methods vs. Computed Properties
