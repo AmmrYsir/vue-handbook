@@ -361,7 +361,19 @@ Choose development version for beginner
 
 ## Computed Properties
 
-
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vue Js Newbies</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    
+    
+  </body>
+</html>
+```
 
 <br>
 
