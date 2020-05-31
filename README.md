@@ -361,6 +361,8 @@ Choose development version for beginner
 
 ## Computed Properties
 
+***In-template expressions are very convenient, but they are meant for simple operations. Putting too much logic in your templates can make them bloated and hard to maintain. For example:***
+
 ```html
 <div id="app">
     <h3> Original message: {{ message }}</h3>
