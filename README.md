@@ -371,6 +371,7 @@ Choose development version for beginner
   <body>
     <div id="app>
       <h3>Salary: {{ salary }} </h3>
+      
     </div>
     <script>
       new Vue({
