@@ -382,10 +382,31 @@ Choose development version for beginner
   })
 </script>
 ```
-<br>
 
 ***Another example with calculation logic***
+```html
+<div id="app">
+	<h3>Salary: {{ salary }} </h3>
+	<h3>KWSP rate (RM): {{ kwsp }}</h3>
+	<h3>Money in hand: {{ salary - kwsp }} </h3>
+</div>
+    
+<script>
+	new Vue({
+		el: '#app',
+		data: {
+			salary: 1000,
+		},
+		computed: {
+			kwsp: function() {
+				return this.salary * 0.11
+			}
 
+		}
+	})
+</script>
+```
+<br>
 [Back to Table of Content](#table-of-contents)
 
 ## Methods vs. Computed Properties
