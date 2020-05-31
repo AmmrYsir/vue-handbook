@@ -366,7 +366,7 @@ Choose development version for beginner
 ```html
 <div id="app">
     <h3> Original message: {{ message }}</h3>
-    <h3> Reverse message: {{ reverse }}</h3>
+    <h3> Reverse message: {{ reverseMessage }}</h3>
 </div>
 
 <script>
@@ -376,8 +376,31 @@ Choose development version for beginner
             message: 'Hello from Vue.js'
         },
         computed: {
-            reverse: function(){
+            reverseMessage: function(){
                 return this.message.split('').reverse().join('')
+            }
+        }
+    })
+</script>
+```
+
+***Another example***
+```html
+<div id="app">
+    <h3>Salary: {{ salary }}</h3>
+    <h3>EPF Deduction: {{ epf }}</h3>
+    <h3>Salary after EPF deduction: {{ salary - epf }}</h3>
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            salary: 1500
+        },
+        computed: {
+            epf: function() {
+                return this.salary * 0.11
             }
         }
     })
