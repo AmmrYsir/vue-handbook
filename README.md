@@ -395,7 +395,7 @@ Choose development version for beginner
 	new Vue({
 		el: '#app',
 		data: {
-			salary: 1000,
+			salary: 1500,
 		},
 		computed: {
 			kwsp: function() {
