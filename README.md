@@ -370,7 +370,19 @@ Choose development version for beginner
   </head>
   <body>
     
-    
+    <script>
+      new Vue({
+        el: '#app',
+        data: {
+          salary: 1500,
+        },
+        computed: {
+          kwsp: function() {
+            return this.salary * 0.11
+          }
+        },
+      })
+    </script>
   </body>
 </html>
 ```
