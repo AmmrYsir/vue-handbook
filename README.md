@@ -110,6 +110,36 @@ Choose development version for beginner
 ***Output:***
 <br>
 ![Output 1](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output1.PNG)
+
+***5. Inputting Data***
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vue Js Newbies</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h3> {{ x }} </h3>
+      <input type="text" v-model="x">
+    </div>
+    
+    <script>
+      new Vue({
+        el: '#app',
+        data: {
+            x: '',
+        },
+      })
+    </script>
+  </body>
+</html>
+```
+***Output:***
+<br>
+![Output 8](https://github.com/AmmrYsir/vue-handbook/blob/master/asset/output8.PNG)
+
 <br>
 
 [Back to Table of Content](#table-of-contents)
