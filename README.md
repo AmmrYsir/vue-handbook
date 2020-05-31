@@ -411,6 +411,7 @@ Choose development version for beginner
 
 ## Methods vs. Computed Properties
 
+
 <br>
 
 [Back to Table of Content](#table-of-contents)
