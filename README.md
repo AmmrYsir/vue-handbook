@@ -363,48 +363,12 @@ Choose development version for beginner
 
 ***In-template expressions are very convenient, but they are meant for simple operations. Putting too much logic in your templates can make them bloated and hard to maintain. For example:***
 ```html
-<div id="app">
-	<h3> {{ originalmessage }} </h3>
-	<h3> {{ reversemessage }} </h3>
-</div>
-    
-<script>
-  new Vue({
-	el: '#app',
-	data: {
-		originalmessage: 'Hello From Vue.js',
-	},
-	computed: {
-		reversemessage: function() {
-			return this.originalmessage.split('').reverse().join('')
-		}
-	}
-  })
-</script>
+
 ```
 
 ***Another example with calculation logic***
 ```html
-<div id="app">
-	<h3>Salary: {{ salary }} </h3>
-	<h3>KWSP rate (RM): {{ kwsp }}</h3>
-	<h3>Money in hand: {{ salary - kwsp }} </h3>
-</div>
-    
-<script>
-	new Vue({
-		el: '#app',
-		data: {
-			salary: 1500,
-		},
-		computed: {
-			kwsp: function() {
-				return this.salary * 0.11
-			}
 
-		}
-	})
-</script>
 ```
 <br>
 [Back to Table of Content](#table-of-contents)
