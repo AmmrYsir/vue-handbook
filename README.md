@@ -441,6 +441,33 @@ Choose development version for beginner
 
 ## Methods vs. Computed Properties
 
+***Methods for more complicated logic and could receive parameter***
+```html
+<div id="app">
+    <h3>Salary: {{ format(salary) }} </h3>
+    <h3>EPF Deduction: {{ format(epf) }}</h3>
+    <h3>Salary after EPF deduction: {{ format(salary - epf) }}</h3>
+</div>
+    
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            salary: 1500
+        },
+        computed: {
+            epf: function() {
+                return this.salary * 0.11
+            }
+        },
+        methods: {
+            format: function(money) {
+                return 'RM'+ money
+            }
+        }
+    })
+</script>
+```
 
 <br>
 
