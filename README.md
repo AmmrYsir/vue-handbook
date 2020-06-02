@@ -474,7 +474,7 @@ Choose development version for beginner
 [Back to Table of Content](#table-of-contents)
 
 ## Components 101
-
+***In Vue, a component is essentially a Vue instance with pre-defined options. Registering a component in Vue is straightforward:***
 ```html
 <div id="app">
     <salarytag></salarytag>
