@@ -475,6 +475,44 @@ Choose development version for beginner
 
 ## Components 101
 
+```html
+<div id="app">
+    <salarytag></salarytag>
+</div>
+    
+<script>
+    Vue.component('salarytag', {
+        template:`
+            <div>
+                <h3>Salary: {{ format(salary) }} </h3>
+                <h3>EPF Deduction: {{ format(epf) }}</h3>
+                <h3>Salary after EPF deduction: {{ format(salary - epf) }}</h3>
+            </div>
+        `,
+        data: function(){
+            return {
+                salary: 1500
+            }
+        },
+        computed: {
+            epf: function() {
+                return this.salary * 0.11
+            }
+        },
+        methods: {
+            format: function(money) {
+                return 'RM'+ money
+            }
+        }
+ 
+    })
+  
+    new Vue({
+        el: '#app'
+    })
+</script>
+```
+
 <br>
 
 [Back to Table of Content](#table-of-contents)
