@@ -474,7 +474,16 @@ Choose development version for beginner
 [Back to Table of Content](#table-of-contents)
 
 ## Components 101
+
 ***In Vue, a component is essentially a Vue instance with pre-defined options. Registering a component in Vue is straightforward:***
+```html
+// Define a new component called todo-item
+Vue.component('todo-item', {
+  template: '<li>This is a todo</li>'
+})
+```
+
+***Example (Beware that data inside component is function that have to return!)***
 ```html
 <div id="app">
     <salarytag></salarytag>
